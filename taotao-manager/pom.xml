@@ -9,6 +9,7 @@
   <artifactId>taotao-manager</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  
   <dependencies>
 		<!-- 依赖taotao-common工程 -->
 		<dependency>
@@ -18,17 +19,18 @@
 		</dependency>
 	</dependencies>
 	<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.tomcat.maven</groupId>
-            <artifactId>tomcat7-maven-plugin</artifactId>
-            <configuration>
-                <port>8080</port>
-                <path>/</path>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
+		<plugins>
+			<!-- 配置Tomcat插件 -->
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<configuration>
+					<port>8080</port>
+					<path>/</path>
+				</configuration>				
+			</plugin>
+		</plugins>
+	</build>
 	<modules>
 		<module>taotao-manager-pojo</module>
 		<module>taotao-manager-mapper</module>
