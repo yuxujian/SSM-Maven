@@ -8,5 +8,6 @@
 </head>
 <body>
 	<h1>all infos were delete</h1>
+	<h2>ok, I got it</h2>
 </body>
 </html>
