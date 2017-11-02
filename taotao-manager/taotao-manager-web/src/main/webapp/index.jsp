@@ -7,9 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>This is test page!!!</h1>
-	
-	<span>update some info</span>
-	<span>okok add ok</span>
+	<h1>all infos were delete</h1>
 </body>
 </html>
